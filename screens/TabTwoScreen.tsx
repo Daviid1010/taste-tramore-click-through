@@ -15,7 +15,8 @@ export default function TabTwoScreen() {
     )
   }
 
-  let events :TasteTramoreEvent[] = loadData().events 
+  let events :TasteTramoreEvent[] = loadData().events
+  console.log("eggs")
   console.log("Events:", events)
 
   return (
