@@ -13,6 +13,12 @@ declare global {
   }
 }
 
+export interface MasonryImage {
+  id: string,
+  imgURL: string,
+  text: string
+}
+
 export type RootStackParamList = {
   Root: NavigatorScreenParams<RootTabParamList> | undefined;
   Modal: undefined;

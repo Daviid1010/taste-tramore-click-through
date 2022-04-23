@@ -1,11 +1,11 @@
 {
 	"events": [{
-			"name": "Nightclub Inagural Night",
+			"name": "Nightclub Inagural Event",
 			"date": "2022-08-08T2130",
 			"location": "Tramore Nightclub",
 			"price": 15.00,
 			"images": [
-				"https://xyuandbeyond.com/wp-content/uploads/2016/11/IMG_20160903_100941211_HDR.jpg",
+				"https://www.irelandbeforeyoudie.com/wp-content/uploads/2018/09/the-george.jpg",
 				"https://www.sueseystreet.ie/wp-content/uploads/2018/08/Farmers-market-Dublin-Suesey-Street-recommends-fresh-fruit-and-veg.jpg"
 			]
 		},
@@ -23,7 +23,7 @@
 			"name": "Surfing Lessons",
 			"date": "2022-08-09T13",
 			"location": "Tramore Beach",
-			"price": 15.00,
+			"price":30.00,
 			"images": [
 				"https://www.tramoresurfschool.com/images/DSCF0840.JPG",
 				"https://wavelengthmag.com/wp-content/uploads/2017/02/Tramore-beach-surf2.jpg"

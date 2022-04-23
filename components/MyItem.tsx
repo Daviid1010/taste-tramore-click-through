@@ -14,7 +14,7 @@ export const MyItem: React.FC<Props> = (props) => {
       <Text style={styles.header}>{item.name}</Text>
       <Text><Text style={styles.bold}>Location:</Text> {item.location}</Text>
       <Text><Text style={styles.bold}>Date:</Text> {item.date}</Text>
-      <Text><Text style={styles.bold}>Price:</Text> {item.price}</Text>
+      <Text><Text style={styles.bold}>Price:</Text> €{item.price}</Text>
       <Image style={styles.images} source={{ uri: item.images[0], height: 100, width: 300 }}></Image>
       <Button
         onPress={() => {}}
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   images: {
-    marginBottom: 8
+    marginVertical: 8
   }
 
 });
